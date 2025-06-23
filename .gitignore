@@ -1,0 +1,13 @@
+top_secret.yaml
+
+*.txt 
+# 전체 텍스트 파일 무시
+
+!readme.txt
+#리드미 파일만 제외 안함
+
+logs
+# logs 란 파일이나 폴더 무시
+
+logs/
+# logs 폴더와 하위내용 무시
